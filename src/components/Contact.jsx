@@ -8,10 +8,10 @@ export default function Contact() {
         <div className="contact__card" data-reveal>
           <SparkIcon className="contact__spark" />
           <p className="section__eyebrow">05 — Contact</p>
-          <h2 className="contact__title">Let’s build something.</h2>
+          <h2 className="contact__title">Let’s connect.</h2>
           <p className="contact__lead">
-            I just wrapped up my degree and I’m looking for new grad software roles. If you’re hiring — or just want to
-            argue about heuristics — my inbox is open.
+            I recently completed my degree and am seeking new graduate software engineering roles. If you are hiring or
+            would like to discuss an opportunity, I would be glad to hear from you.
           </p>
 
           <a className="btn btn--primary btn--lg" href={`mailto:${profile.email}`}>

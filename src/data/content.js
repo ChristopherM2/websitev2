@@ -2,8 +2,8 @@ export const profile = {
   name: 'Christopher Matheson',
   role: 'Software Engineer',
   pronouns: 'He/Him',
-  tagline: 'Computer Science + Psychology graduate from Wilfrid Laurier. I build APIs, full-stack apps, and the occasional Discord bot that wins a hackathon.',
-  status: 'Open to new grad software roles · Waterloo, ON or remote',
+  tagline: 'Computer Science and Psychology graduate from Wilfrid Laurier University, with experience building REST APIs, backend services, and full-stack web applications.',
+  status: 'Open to new graduate software engineering roles · Waterloo, ON or remote',
   email: 'chrism24747@gmail.com',
   phone: '519-860-9972',
   phoneHref: '+15198609972',
@@ -18,14 +18,14 @@ export const profile = {
 export const stats = [
   { value: '10.04', label: 'GPA / 12.0' },
   { value: '200+', label: 'Students’ code reviewed' },
-  { value: '2', label: 'Hackathons shipped' },
-  { value: '13', label: 'Public repos' },
+  { value: '2', label: 'Hackathon projects' },
+  { value: '13', label: 'Public repositories' },
 ]
 
 export const about = [
-  'I graduated from Wilfrid Laurier University in 2026 with an Honours BSc, doubling in Computer Science and Psychology. The pairing wasn’t an accident — I like building software that accounts for the person on the other side of the screen.',
-  'Most recently I was a Software Engineer Intern at LTM, writing REST/JSON APIs and SOAP/XML web services in Java Spring Boot and MuleSoft for a SaaS product suite, and building proofs-of-concept alongside tech leads and solution architects to pressure-test new ideas before they hit the roadmap.',
-  'Alongside my degree I spent three years as an Instructional Assistant running labs for Python, data structures, OOP, digital electronics and microprocessors — which is the fastest way I know to find out whether you actually understand something. I also spend hackathon weekends gluing LLM APIs onto things that probably don’t need them.',
+  'I graduated from Wilfrid Laurier University in 2026 with an Honours Bachelor of Science in Computer Science and Psychology. The combination shapes how I approach engineering: I aim to build software that is technically sound and designed around the people who use it.',
+  'Most recently, I worked as a Software Engineer Intern at LTM, developing REST/JSON APIs and SOAP/XML web services with Java Spring Boot and MuleSoft for a SaaS product suite. I also built proofs-of-concept with tech leads and solution architects to evaluate the feasibility of new features before they reached the product roadmap.',
+  'During my degree, I spent three years as an Instructional Assistant, leading labs in Python, data structures, object-oriented programming, digital electronics, and microprocessors. Teaching strengthened both my technical fundamentals and my ability to explain complex concepts clearly. I also take part in hackathons, where I have built projects ranging from an AI debate coach to an award-winning Discord game.',
 ]
 
 export const experience = [
@@ -38,7 +38,7 @@ export const experience = [
     bullets: [
       'Developed REST/JSON APIs and SOAP/XML web services using Java Spring Boot and the MuleSoft Anypoint Platform to support the company’s SaaS product suite.',
       'Built proofs-of-concept with tech leads and solution architects to evaluate the feasibility of new features and technical solutions in an Agile environment.',
-      'Wrote unit and integration tests to keep code clean, reviewed, and performant across new features, and documented design changes and prototype evaluations.',
+      'Wrote unit and integration tests to maintain clean, well-reviewed, and performant code across new features, and documented design changes and prototype evaluations.',
     ],
     tags: ['Java', 'Spring Boot', 'MuleSoft', 'REST', 'SOAP/XML', 'Agile'],
   },
@@ -60,9 +60,9 @@ export const experience = [
     location: 'Waterloo, Ontario',
     period: 'September 2023 — 2026',
     bullets: [
-      'Ran labs for Intro to Python, Data Structures I, Intro to Object-Oriented Programming, Digital Electronics, Intro to Microprocessors and Windows App Programming, with 30–60 students per lab.',
-      'Guided students of diverse backgrounds through problem-solving, helping them approach the same problem with different data structures.',
-      'Analyzed and graded over 200 students’ code submissions against the grading scheme, giving constructive, detail-oriented feedback.',
+      'Co-led labs with fellow Instructional Assistants for Intro to Python, Data Structures I, Intro to Object-Oriented Programming, Digital Electronics, Intro to Microprocessors, and Windows App Programming, with 30–60 students per lab.',
+      'Guided students from diverse backgrounds in developing problem-solving skills, helping them approach problems using different data structures.',
+      'Assessed and graded code submissions from over 200 students in accordance with the grading scheme, providing constructive, detail-oriented feedback.',
     ],
     tags: ['Python', 'Data structures', 'C', 'ARM Assembly', 'Teaching'],
   },
@@ -79,7 +79,7 @@ export const education = {
 export const projects = [
   {
     name: 'Debatrix',
-    blurb: 'An AI debate coach built at SpurHacks 2025. Users post an argument on a topic and get structured coaching back from Llama 3 70B via the Groq API, with every round persisted to MongoDB so you can revisit how your reasoning changed.',
+    blurb: 'An AI debate coach built at SpurHacks 2025. Users submit an argument on a topic and receive structured coaching from Llama 3 70B via the Groq API, with every round persisted to MongoDB so users can review how their reasoning develops over time.',
     period: 'June 2025',
     category: 'AI',
     badge: 'SpurHacks 2025',
@@ -89,7 +89,7 @@ export const projects = [
   },
   {
     name: 'A* Sliding Puzzle Solver',
-    blurb: 'Generates and solves 200 randomized 8- and 15-puzzles across three heuristics — Manhattan, Euclidean, and misplaced tiles — in a configurable thread pool, then reports nodes explored per heuristic. Manhattan won by an order of magnitude.',
+    blurb: 'Generates and solves 200 randomized 8- and 15-puzzles across three heuristics — Manhattan, Euclidean, and misplaced tiles — in a configurable thread pool, then reports nodes explored per heuristic. Manhattan distance outperformed the alternatives by an order of magnitude.',
     period: 'February 2025',
     category: 'AI',
     tags: ['Python', 'A* search', 'Heuristics', 'Multithreading'],
@@ -97,17 +97,17 @@ export const projects = [
   },
   {
     name: 'Idle Farming Discord Bot',
-    blurb: 'An idle farming game living inside Discord — crops grow in real time, you sell for currency, and reinvest in upgrades that compound your profit. Built with three friends over a weekend and won Best Use of MongoDB Atlas.',
+    blurb: 'An idle farming game played entirely within Discord: crops grow in real time, harvests sell for in-game currency, and players reinvest in upgrades that compound their earnings. Built by a team of four over a hackathon weekend, winning Best Use of MongoDB Atlas.',
     period: 'May 2024',
     category: 'Web',
-    badge: '🏆 Best Use of MongoDB Atlas',
+    badge: 'Winner · Best Use of MongoDB Atlas',
     tags: ['JavaScript', 'Node.js', 'Discord.js', 'MongoDB Atlas'],
     href: 'https://github.com/ChristopherM2/Hawkhacks24',
     featured: true,
   },
   {
     name: 'Student Database Grade & Report App',
-    blurb: 'An Excel application in VBA and SQL that queries a relational database of 3000+ student records, surfaces trends through charts and pivot tables, and generates Word reports. User forms and modular code keep the UI approachable.',
+    blurb: 'An Excel application in VBA and SQL that queries a relational database of 3000+ student records, surfaces trends through charts and pivot tables, and generates Word reports. User forms and modular code provide a clear, user-friendly interface.',
     period: 'March 2024',
     category: 'Data',
     tags: ['VBA', 'SQL', 'Excel', 'Reporting'],
@@ -115,7 +115,7 @@ export const projects = [
   },
   {
     name: 'Study Motivation Web App',
-    blurb: 'Led a team building a responsive study-motivation app in Next.js and TypeScript, backed by RESTful Django services and a Firebase database for real-time storage and sync. Focus was tight state management and a genuinely seamless flow.',
+    blurb: 'Led a team in building a responsive study-motivation app in Next.js and TypeScript, backed by RESTful Django services and a Firebase database for real-time storage and synchronization, with an emphasis on efficient state management and a seamless user experience.',
     period: 'August 2024',
     category: 'Web',
     tags: ['TypeScript', 'ReactJS', 'Next.js', 'Python', 'Django', 'Firebase'],
@@ -124,7 +124,7 @@ export const projects = [
   },
   {
     name: 'Huffman File Compressor',
-    blurb: 'A from-scratch Huffman coding implementation that compresses a file to a smaller encoded blob plus a companion key file, and decompresses it losslessly on the way back out.',
+    blurb: 'A from-scratch implementation of Huffman coding that compresses files into a compact encoded output with an accompanying key file, then restores the original losslessly during decompression.',
     period: 'July 2024',
     category: 'Systems',
     tags: ['Python', 'Huffman coding', 'Algorithms'],
@@ -132,7 +132,7 @@ export const projects = [
   },
   {
     name: 'Groq Chat Bot',
-    blurb: 'A Discord chatbot that fronts the Groq API so users can swap between models mid-conversation. Async throughout to keep command handling responsive, with API keys kept out of source via dotenv.',
+    blurb: 'A Discord chatbot built on the Groq API that lets users switch between language models mid-conversation. Fully asynchronous for responsive command handling, with API keys kept out of the source code using environment variables via dotenv.',
     period: 'February 2025',
     category: 'AI',
     tags: ['Python', 'Groq API', 'asyncio', 'Discord'],
@@ -140,7 +140,7 @@ export const projects = [
   },
   {
     name: 'Tic-Tac-Toe Brute Forcer',
-    blurb: 'A small Java bot that brute-forces the game tree for tic-tac-toe and plays out the line that secures the win — or at worst, the draw.',
+    blurb: 'A Java bot that exhaustively searches the tic-tac-toe game tree and plays the line that secures a win or, at minimum, a draw.',
     period: 'September 2024',
     category: 'Systems',
     tags: ['Java', 'Game tree', 'Search'],

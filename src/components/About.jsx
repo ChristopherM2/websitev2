@@ -4,7 +4,7 @@ import { CapIcon } from './Icons.jsx'
 
 export default function About() {
   return (
-    <Section id="about" eyebrow="01 — About" title="Two majors, one habit: take it apart and see how it works.">
+    <Section id="about" eyebrow="01 — About" title="Building reliable software with the end user in mind.">
       <div className="about">
         <div className="about__prose">
           {about.map((paragraph, index) => (
