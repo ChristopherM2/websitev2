@@ -6,8 +6,8 @@ export default function Experience() {
     <Section
       id="experience"
       eyebrow="02 — Experience"
-      title="Where I've worked"
-      lead="Backend services, mechanical prototypes, and three years of teaching first-years how to debug."
+      title="Professional experience"
+      lead="Experience spanning backend software development, mechanical engineering, and three years of technical instruction."
     >
       <ol className="timeline">
         {experience.map((job, index) => (

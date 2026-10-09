@@ -15,8 +15,8 @@ export default function Projects() {
     <Section
       id="projects"
       eyebrow="03 — Projects"
-      title="Things I've built"
-      lead="Hackathon weekends, course projects, and a few things that started as a joke and got out of hand."
+      title="Selected projects"
+      lead="Hackathon, academic, and personal projects across web development, AI, data, and systems."
     >
       <div className="filters" data-reveal role="tablist" aria-label="Filter projects by category">
         {projectFilters.map((name) => (
@@ -67,7 +67,7 @@ export default function Projects() {
       </div>
 
       <p className="projects__more" data-reveal>
-        More experiments, coursework and LeetCode grinding live on{' '}
+        Additional projects, coursework, and algorithm practice are available on{' '}
         <a href={profile.github} target="_blank" rel="noreferrer">
           GitHub
         </a>

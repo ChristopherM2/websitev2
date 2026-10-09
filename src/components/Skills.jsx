@@ -6,8 +6,8 @@ export default function Skills() {
     <Section
       id="skills"
       eyebrow="04 — Skills"
-      title="The toolkit"
-      lead="What I reach for, roughly in order of how often I reach for it."
+      title="Technical skills"
+      lead="Languages, frameworks, and tools I work with, listed roughly in order of how often I use them."
     >
       <div className="skills">
         {skills.map((group, index) => (
