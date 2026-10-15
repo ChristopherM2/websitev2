@@ -16,7 +16,7 @@ export const profile = {
 }
 
 export const stats = [
-  { value: '10.04', label: 'GPA / 12.0' },
+  { value: '10.0', label: 'GPA / 12' },
   { value: '200+', label: 'Students’ code reviewed' },
   { value: '2', label: 'Hackathon projects' },
   { value: '13', label: 'Public repositories' },
@@ -72,7 +72,7 @@ export const education = {
   school: 'Wilfrid Laurier University',
   location: 'Waterloo, Ontario',
   degree: 'Honours Bachelor of Science, Computer Science & Psychology',
-  detail: 'GPA 10.04 / 12.0',
+  detail: 'GPA 10.0 / 12',
   period: 'Graduated 2026',
 }
 
