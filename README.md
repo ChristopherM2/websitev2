@@ -25,7 +25,7 @@ npm run lint
 
 ## Common edits
 
-- **Add a project** — append an object to `projects` in `src/data/content.js`. Set `category` to one of the values in `projectFilters`, and `featured: true` to make the card span two columns.
+- **Add a project** — append an object to `projects` in `src/data/content.js`. Set `category` to one of the values in `projectFilters`, and `featured: true` to make the card span two columns. Cards linking to GitHub show the GitHub icon; any other `href` (such as a live site) shows a globe.
 - **Update the resume** — overwrite `public/Christopher-Matheson-Resume.pdf`, keeping the filename.
 - **Change the accent color** — edit `--accent`, `--accent-soft` and `--gradient` in `src/index.css`.
 

@@ -78,6 +78,16 @@ export const education = {
 
 export const projects = [
   {
+    name: 'Coding 4 Kidz',
+    blurb: 'The website for my tutoring business, which offers live one-on-one coding lessons for kids ages 8 to 16. Parents can match courses to their child’s age, book a free first lesson through a form backed by a JSON API, and sign in to a React parent portal with passwordless email links to view upcoming lessons, session notes, and invoices with online payment.',
+    period: '2026',
+    category: 'Web',
+    badge: 'Live site',
+    tags: ['React', 'JavaScript', 'Vite', 'REST API', 'HTML/CSS'],
+    href: 'https://coding4kidz.ca',
+    featured: true,
+  },
+  {
     name: 'Debatrix',
     blurb: 'An AI debate coach built at SpurHacks 2025. Users submit an argument on a topic and receive structured coaching from Llama 3 70B via the Groq API, with every round persisted to MongoDB so users can review how their reasoning develops over time.',
     period: 'June 2025',

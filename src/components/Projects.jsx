@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react'
 import { profile, projectFilters, projects } from '../data/content.js'
 import Section from './Section.jsx'
-import { ArrowIcon, GitHubIcon } from './Icons.jsx'
+import { ArrowIcon, GitHubIcon, GlobeIcon } from './Icons.jsx'
 
 export default function Projects() {
   const [filter, setFilter] = useState('All')
@@ -45,7 +45,11 @@ export default function Projects() {
             style={{ '--delay': `${index * 70}ms` }}
           >
             <div className="project__top">
-              <GitHubIcon className="project__source" />
+              {project.href.startsWith('https://github.com/') ? (
+                <GitHubIcon className="project__source" />
+              ) : (
+                <GlobeIcon className="project__source" />
+              )}
               <span className="project__period">{project.period}</span>
               <ArrowIcon className="project__arrow" />
             </div>

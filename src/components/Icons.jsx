@@ -26,6 +26,16 @@ export function LinkedInIcon(props) {
   )
 }
 
+export function GlobeIcon(props) {
+  return (
+    <svg {...base} {...props}>
+      <circle cx="12" cy="12" r="9.5" />
+      <path d="M2.5 12h19" />
+      <path d="M12 2.5c2.6 2.6 3.9 5.8 3.9 9.5s-1.3 6.9-3.9 9.5c-2.6-2.6-3.9-5.8-3.9-9.5s1.3-6.9 3.9-9.5Z" />
+    </svg>
+  )
+}
+
 export function MailIcon(props) {
   return (
     <svg {...base} {...props}>
