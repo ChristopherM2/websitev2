@@ -16,7 +16,7 @@ export const profile = {
 }
 
 export const stats = [
-  { value: '10.04', label: 'GPA / 12.0' },
+  { value: '10.0', label: 'GPA / 12' },
   { value: '200+', label: 'Students’ code reviewed' },
   { value: '2', label: 'Hackathon projects' },
   { value: '13', label: 'Public repositories' },
@@ -72,11 +72,21 @@ export const education = {
   school: 'Wilfrid Laurier University',
   location: 'Waterloo, Ontario',
   degree: 'Honours Bachelor of Science, Computer Science & Psychology',
-  detail: 'GPA 10.04 / 12.0',
+  detail: 'GPA 10.0 / 12',
   period: 'Graduated 2026',
 }
 
 export const projects = [
+  {
+    name: 'Coding 4 Kidz',
+    blurb: 'The website for my tutoring business, which offers live one-on-one coding lessons for kids ages 8 to 16. Parents can match courses to their child’s age, book a free first lesson through a form backed by a JSON API, and sign in to a React parent portal with passwordless email links to view upcoming lessons, session notes, and invoices with online payment.',
+    period: '2026',
+    category: 'Web',
+    badge: 'Live site',
+    tags: ['React', 'JavaScript', 'Vite', 'REST API', 'HTML/CSS'],
+    href: 'https://coding4kidz.ca',
+    featured: true,
+  },
   {
     name: 'Debatrix',
     blurb: 'An AI debate coach built at SpurHacks 2025. Users submit an argument on a topic and receive structured coaching from Llama 3 70B via the Groq API, with every round persisted to MongoDB so users can review how their reasoning develops over time.',
